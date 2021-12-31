@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 @font-face {
-    src: url("../fonts/TaxiDriver.ttf");
+    src: url("../Fonts/TaxiDriver.ttf");
     font-family: "Taxi Driver";
 }
 /* Page Scroll*/
