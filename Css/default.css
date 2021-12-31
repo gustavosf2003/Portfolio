@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+@font-face {
+    src: url("../fonts/TaxiDriver.ttf");
+    font-family: "Taxi Driver";
+}
+/* Page Scroll*/
+body::-webkit-scrollbar{
+    width: 9px;
+    background-color: #2A2D34;
+  }
+  
+  body::-webkit-scrollbar-track {
+    margin-top: 5rem;
+    background: hsl(0, 0%, 90%);
+  }  
+  body::-webkit-scrollbar-thumb {
+    background-color: #2A2D34;
+  }
+  
