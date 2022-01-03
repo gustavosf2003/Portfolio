@@ -9,9 +9,17 @@ li {
 a {
     text-decoration: none;
 }
+.main-content{
+    margin: 2rem 5rem 0 5rem;
+}
+/* Fonts */
 @font-face {
     src: url("../Fonts/TaxiDriver.ttf");
     font-family: "Taxi Driver";
+}
+@font-face {
+    src: url("../Fonts/Cera\ Pro\ Medium.otf");
+    font-family: "Cera Pro Medium";
 }
 /* Page Scroll*/
 body::-webkit-scrollbar{

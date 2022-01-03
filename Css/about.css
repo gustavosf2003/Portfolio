@@ -1,0 +1,47 @@
+.about{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    font-family: "Cera Pro Medium";
+}
+.about-img{
+    text-align: center;
+}
+.about-text{
+    text-align: justify;
+    padding: 0 100px 0 15px;
+}
+.about-text h3{
+    font-size: 4rem;
+}
+.about-text p{
+    padding-top: 15px ;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+}
+.about-text span{
+    color: #2574a9;
+}
+.image{
+    width: 22rem;
+
+}
+@media (max-width: 830px) {
+    .about{
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .about-text{
+        padding: 0 1rem 0 1rem;
+    }
+    .about-text h3{
+        font-size: 3rem;
+    }
+    .about-text p{
+        font-size: 1.5rem;
+    }
+    .about-img{
+        display: none;
+    }
+}
