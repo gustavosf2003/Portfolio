@@ -32,13 +32,26 @@ img::selection{
 body::-webkit-scrollbar{
     width: 9px;
     background-color: #2A2D34;
-  }
-  
-  body::-webkit-scrollbar-track {
-    margin-top: 5rem;
-    background: hsl(0, 0%, 90%);
-  }  
-  body::-webkit-scrollbar-thumb {
-    background-color: #2A2D34;
-  }
-  
+}
+
+body::-webkit-scrollbar-track {
+  margin-top: 5rem;
+  background: hsl(0, 0%, 90%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2A2D34;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+    .main-content{
+        margin: 0.2rem 1rem 0 1rem;
+
+    }
+}
+  @media (max-width: 830px) {
+    .main-content{
+        margin: 1.5rem 1.4rem 0 1.4rem;
+    }
+}

@@ -3,12 +3,14 @@
     align-items: center;
     grid-template-columns: 1fr 2fr;
     font-family: "Cera Pro Medium";
+    margin-top: 6%;
 }
 .about-img{
     text-align: center;
+    margin-top: 0;
 }
 .about-text{
-    text-align: justify;
+    text-align: left;
     padding: 0 100px 0 15px;
 }
 .about-text h3{
@@ -43,5 +45,23 @@
     }
     .about-img{
         display: none;
+    }
+}
+@media (max-width: 500px) {
+    .about-text{
+        padding: 0;
+        text-align: center;
+    }
+    .about-text h3{
+        font-size: 2.7rem;
+        white-space: nowrap;
+    }
+    .about-text p{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 1920px) {
+    .about{
+        margin-top: 8%;
     }
 }
