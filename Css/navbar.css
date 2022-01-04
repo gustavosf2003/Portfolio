@@ -14,7 +14,7 @@ header {
     height: 5rem;
 }
 .container {
-    max-width: 75rem;
+    max-width: 100rem;
     height: 100%;
     margin: 0 auto;
     padding: 0 50px;
@@ -229,5 +229,30 @@ header {
         to{
             width: 300px;
         }
+    }
+}
+@media (min-width:1920px) {
+    .max-logo h1 {
+        font-size: 2.5rem;
+        width: 410px;
+    }
+    .min-logo h1 {
+        font-size: 2rem;
+    }
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+        to{
+            width: 410px;
+        }
+    }
+    .max-nav a {
+        font-size: 1.3rem;
+
+    }
+    .min-nav a {
+        font-size: 1.2rem;
+
     }
 }
