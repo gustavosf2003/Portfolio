@@ -1,0 +1,58 @@
+.knowledge{
+    display: grid;
+    align-items: center;
+    background-color: #2A2D34;
+    width: 100%;
+    grid-template-columns: 1.3fr 2fr;
+    font-family: "Cera Pro Medium";
+}
+.knowledge-text{
+    text-align: center;
+    margin-top: 0;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+}
+.knowledge-cards{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap:22px;
+    row-gap:22px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 110px;
+    padding-right: 100px;
+    
+}
+.card-language {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 7px rgb(21, 23, 25), -5px -5px 30px 7px rgb(21, 23, 25);
+    transition: 0.4s;
+    background-color: white;
+}
+  
+.svg-language {
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+}
+  
+.svg-language svg{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 15px;
+}
+.card-language:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgb(21, 23, 25), 
+    -5px -5px 30px 15px rgb(21, 23, 25);
+}
+.languages-icons{
+    width: 100px;
+}
+.js{
+    width: 80px;
+}

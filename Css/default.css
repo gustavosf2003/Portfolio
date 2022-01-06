@@ -9,8 +9,9 @@ li {
 a {
     text-decoration: none;
 }
-.main-content{
-    margin: 2rem 5rem 0 5rem;
+.about{
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 p::selection,h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,b::selection,span::selection,a::selection {
     background-color: #2A2D34;
@@ -45,13 +46,13 @@ body::-webkit-scrollbar-thumb {
 
 /* Responsiveness */
 @media (max-width: 500px) {
-    .main-content{
+    .about{
         margin: 0.2rem 1rem 0 1rem;
 
     }
 }
   @media (max-width: 830px) {
-    .main-content{
+    .about{
         margin: 1.5rem 1.4rem 0 1.4rem;
     }
 }
