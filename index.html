@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Css/about.css">
     <link rel="stylesheet" href="Css/knowledge.css">
     <link rel="stylesheet" href="Css/projects.css">
+    <link rel="stylesheet" href="Css/card.css">
 
 </head>
 <body>
@@ -37,7 +38,7 @@
     <main class="main-content">
         <section class="about">
             <section class="about-img">
-                <img class="image" id="img" onmouseover="smile()" src="Img/avatar.png" alt="Avatar">
+                <img class="image" id="img" onmouseover="smile()" onmouseout="normalFace()" src="Img/avatar.png" alt="Avatar">
             </section>
             <article class="about-text">
                 <h3>
@@ -95,15 +96,101 @@
                 </article>
             </section>
         </section>
-        <section class="projects">
-            <article>
-                <h3>Projects</h3>
+        <section class="projects-text">
+            <article class="title-centered">
+                <h3 class="projects-title">Projects</h3>
             </article>
-            <section>
-                <article>a</article>
-                <article>a</article>
-                <article>a</article>
-                <article>a</article>
+            <section class="projects-container">
+                <div class="projects-card" style="background: url('./Img/volvo.png');background-repeat: no-repeat">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Volvo</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                  </div>
+                <div class="projects-card" style="background: url('./Img/cap2.png') ;background-repeat: no-repeat">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Lufthansa App</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">A personal project to simulate the managment of flights. Based in lufthansa interface  </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                  </div>
+                <div class="projects-card">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Volvo</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-card">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Volvo</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-card">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Volvo</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-card">
+                    <div class="overlay">
+                      <div class = "items"></div>
+                      <div class = "items head">
+                        <p>Volvo</p>
+                        <hr>
+                      </div>
+                      <div class = "items description">
+                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      </div>
+                      <div class="items see-more">
+                        <span>See more</span>
+                    </div>
+                  </div>
+                </div>
             </section>
         </section>
     </main>
