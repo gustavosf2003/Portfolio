@@ -105,6 +105,16 @@
         height: 120px;
     }
 }
+@media (max-width: 420px) {
+   .knowledge-cards{
+        padding-left: 19%;
+    }
+}
+@media (max-width: 400px) {
+   .knowledge-cards{
+        padding-left: 14%;
+    }
+}
 @media (min-width:1920px) {
     .knowledge-cards{
         display: grid;

@@ -4,3 +4,6 @@ function smile(){
 function normalFace(){
     document.getElementById("img").src="Img/avatar.png"
 }
+function eating(){
+    document.getElementById("img").src="Img/avatar_eating.png"
+}

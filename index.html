@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="Css/default.css">
     <link rel="stylesheet" href="Css/about.css">
     <link rel="stylesheet" href="Css/knowledge.css">
+    <link rel="stylesheet" href="Css/services.css">
+    <link rel="stylesheet" href="Css/certificates.css">
     <link rel="stylesheet" href="Css/projects.css">
-    <link rel="stylesheet" href="Css/card.css">
 
 </head>
 <body>
@@ -26,30 +27,33 @@
             </div>
             <nav class="nav-bar max-nav">
                 <ul>
-                    <li><a href="#sobre">About me</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#produtos">Conhecimentos</a></li>
-                    <li><a href="#contato">Contact</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#knowledge">Knowledge</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="ghost"></section>
+    <section class="ghost" id="about"></section>
     <main class="main-content">
         <section class="about">
             <section class="about-img">
-                <img class="image" id="img" onmouseover="smile()" onmouseout="normalFace()" src="Img/avatar.png" alt="Avatar">
+                <img class="image" id="img" onmouseover="smile()" onclick="eating()" onmouseout="normalFace()" src="Img/avatar.png" alt="Avatar">
             </section>
             <article class="about-text">
                 <h3>
                     About me <span>.</span>
                 </h3>
                 <p>Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora). Sou freelancer como Front-end developer e UI Designer. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.</p>
+                <span id="knowledge"></span>
             </article>
         </section>
         <section class="knowledge">
             <article class="knowledge-text">
-                <h3>Conhecimentos</h3>
+          <article class="title-centered">
+            <h3 class="projects-title">Knowledge</h3>
+          </article>
             </article>
             <section class="knowledge-cards">
                 <article class="card-language">
@@ -96,101 +100,152 @@
                 </article>
             </section>
         </section>
-        <section class="projects-text">
+        <section class="services">
+          <article class="title-centered">
+            <h3 class="projects-title">Services</h3>
+          </article>
+          <section class="services-container">
+            <article class="row1-container">
+              <div class="services-box box-down cyan">
+                <h2 class="service-box-title">Responsiveness</h2>
+                <p>Create responsiveness websites to mobile phones</p>
+                <img class="services-img" src="./Img/phone.png" alt="">
+              </div>
+          
+              <div class="services-box red">
+                <h2 class="service-box-title">Website creation</h2>
+                <p>Creation of websites,portfolios,landing pages and e-commerce</p>
+                <img class="services-img" src="./Img/coding.png" alt="">
+              </div>
+          
+              <div class="services-box box-down blue">
+                <h2 class="service-box-title">SEO</h2>
+                <p>Use SEO techniques to improve website searches</p>
+                <img class="services-img" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+              </div>
+            </article>
+            <article class="row2-container">
+              <div class="services-box orange">
+                <h2 class="service-box-title">Analisys</h2>
+                <p>Analyze users' geolocation and hot zone data using Google Analitycs and Hotjar</p>
+                <img class="services-img" src="./Img/chart.png" alt="">
+              </div>
+            </article>
+          </section>
+        </section>
+        <section class="certificates">
+          <article class="title-centered">
+            <h3 class="certificate-title">Services</h3>
+          </article>
+          <section class="certificates-container">
+            <div class="certificate-box">
+              <div class="certificate-img">
+                  <div class="inner-skew">
+                    <img src="./Img/lufthansa.png">
+                  </div>
+              </div>
+              <div class="text-container">
+                <h3>A blue bird</h3>
+                <div>
+                  This a demo experiment to skew image container. It looks good.
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class="projects-text" id="projects">
             <article class="title-centered">
                 <h3 class="projects-title">Projects</h3>
             </article>
             <section class="projects-container">
                 <div class="projects-card" style="background: url('./Img/volvo.png');background-repeat: no-repeat">
-                    <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Volvo</p>
-                        <hr>
-                      </div>
-                      <div class = "items description">
-                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
-                      </div>
-                      <div class="items see-more">
-                        <span>See more</span>
+                  <div class="overlay">
+                    <div class="items"></div>
+                    <div class="items head">
+                      <p>Volvo</p>
+                      <hr>
+                    </div>
+                    <div class = "items description">
+                      <p class="project-description">I worked in a project for Volvo in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                    </div>
+                    <div class="items see-more">
+                      <span>See more</span>
                     </div>
                   </div>
-                  </div>
-                <div class="projects-card" style="background: url('./Img/cap2.png') ;background-repeat: no-repeat">
-                    <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Lufthansa App</p>
-                        <hr>
-                      </div>
-                      <div class = "items description">
-                        <p class="project-description">A personal project to simulate the managment of flights. Based in lufthansa interface  </p>
-                      </div>
-                      <div class="items see-more">
-                        <span>See more</span>
+                </div>
+                <div class="projects-card" style="background: url('./Img/lufthansa.png') ;background-repeat: no-repeat">
+                  <div class="overlay">
+                    <div class="items"></div>
+                    <div class="items head">
+                      <p>Lufthansa App</p>
+                      <hr>
+                    </div>
+                    <div class = "items description">
+                      <p class="project-description">A personal project to simulate the managment of flights. Based in lufthansa interface  </p>
+                    </div>
+                    <div class="items see-more">
+                      <span>See more</span>
                     </div>
                   </div>
+                </div>
+                <div class="projects-card" style="background: url('./Img/hamburger.png') ;background-repeat: no-repeat">
+                  <div class="overlay">
+                    <div class="items"></div>
+                    <div class="items head">
+                      <p>Burger App</p>
+                      <hr>
+                    </div>
+                    <div class = "items description">
+                      <p class="project-description">Personal project to simulate the order of delicious burguers</p>
+                    </div>
+                    <div class="items see-more">
+                      <span>See more</span>
+                    </div>
                   </div>
-                <div class="projects-card">
+                </div>
+                <div class="projects-card" style="background: url('./Img/stock_market.png');background-repeat: no-repeat;">
                     <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Volvo</p>
+                      <div class="items"></div>
+                      <div class="items head">
+                        <p>Khubu</p>
                         <hr>
                       </div>
                       <div class = "items description">
-                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                        <p class="project-description">I worked in a project for Khubu Investment in the front-end team using Vue.js, Buefy, SASS and HTML </p>
                       </div>
                       <div class="items see-more">
                         <span>See more</span>
                     </div>
                   </div>
                 </div>
-                <div class="projects-card">
+                <div class="projects-card" style="background: url('Img/mercado.png')">
                     <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Volvo</p>
+                      <div class="items"></div>
+                      <div class="items head">
+                        <p>Mercado Livre</p>
                         <hr>
                       </div>
-                      <div class = "items description">
-                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                      <div class="items description">
+                        <p class="project-description">Personal project to simulate the proccess of buying a T-Shirt, based in Mercado Livre interface</p>
                       </div>
                       <div class="items see-more">
                         <span>See more</span>
                     </div>
                   </div>
                 </div>
-                <div class="projects-card">
+                <a href="https://github.com/gustavosf2003?tab=repositories" target="_blank">
+                  <div class="projects-card" style="background: url('Img/github.png');background-repeat: no-repeat;">
                     <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Volvo</p>
+                      <div class="items"></div>
+                      <div class="items head">
+                        <p>GitHub</p>
                         <hr>
                       </div>
                       <div class = "items description">
-                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
+                        <p class="project-description">Check all my projects in my GitHub :)</p>
                       </div>
-                      <div class="items see-more">
-                        <span>See more</span>
                     </div>
                   </div>
-                </div>
-                <div class="projects-card">
-                    <div class="overlay">
-                      <div class = "items"></div>
-                      <div class = "items head">
-                        <p>Volvo</p>
-                        <hr>
-                      </div>
-                      <div class = "items description">
-                        <p class="project-description">I worked in the front-end team using Vue.js, Buefy, SASS and HTML </p>
-                      </div>
-                      <div class="items see-more">
-                        <span>See more</span>
-                    </div>
-                  </div>
-                </div>
+                </a>
             </section>
         </section>
     </main>
