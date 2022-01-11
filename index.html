@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="Css/services.css">
     <link rel="stylesheet" href="Css/certificates.css">
     <link rel="stylesheet" href="Css/projects.css">
+    <link rel="stylesheet" href="Css/recomendation.css">
 
 </head>
 <body>
@@ -135,21 +136,31 @@
         </section>
         <section class="certificates">
           <article class="title-centered">
-            <h3 class="certificate-title">Services</h3>
+            <h3 class="certificate-title">Certificates</h3>
           </article>
           <section class="certificates-container">
-            <div class="certificate-box">
+            <section class="certificate-box">
               <div class="certificate-img">
                   <div class="inner-skew">
-                    <img src="./Img/lufthansa.png">
+                    <img class="mta1" src="./Img/mta.png">
                   </div>
               </div>
-              <div class="text-container">
-                <h3>A blue bird</h3>
-                <div>
-                  This a demo experiment to skew image container. It looks good.
+              <article class="text-container">
+                <h3>MTA 98-364</h3>
+                <p>This a demo experiment to skew image container. It looks good.</p>
+              </article>
+            </section>
+            <section class="certificate-box">
+              <div class="certificate-img">
+                  <div class="inner-skew">
+                    <img class="mta2" src="./Img/mta2.png">
+                  </div>
               </div>
-            </div>
+              <article class="text-container">
+                <h3>MTA 98-375</h3>
+                <p>This a demo experiment to skew image container. It looks good.</p>
+              </article>
+            </section>
           </section>
         </section>
         <section class="projects-text" id="projects">
@@ -248,6 +259,32 @@
                 </a>
             </section>
         </section>
+        <section class="recomendation">
+          <article>
+            <h3 class="recomendation-title">Recomendation</h3>
+          </article>
+          <article class="recomendation-boxes">
+            <img src="Img/previous.png" id="previous" class="control-buttons">
+            <article class="main-recomendation">
+              <article class="recomendation-title-box">
+                <a class="recomendation-link" id="linkImg" target="_blank">
+                  <img id="linkedinImage" class="recomendation-img">
+                </a>
+                <a class="recomendation-link" id="linkName" target="_blank">
+                  <u>
+                    <h3 id="recomendation-name" class="recomendation-name"></h3>
+                  </u>
+                </a>
+              </article>
+              <p class="recomendation-text" id="recomendation-text"></p>
+            </article>
+            <img src="Img/next.png" id="next" class="control-buttons">
+          </article>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
     <!-- scipts -->
     <script type="text/javascript" src="Js/navbar.js"></script>

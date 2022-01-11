@@ -1,0 +1,46 @@
+.recomendation{
+    margin-top: 3%;
+    background-color: #2A2D34;
+    color: #fcfcfc;
+}
+.recomendation-title {
+    font-size: 2.5rem;
+    padding-top: 4%;
+    text-align: center;
+}
+.recomendation-img{
+    width: 60px;
+    border-radius: 60px;
+}
+.recomendation-link{
+    color: inherit; 
+}
+.recomendation-boxes{
+    display: flex;
+    margin: 5% 10% 0 10%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.main-recomendation{
+    width: 100%;
+    margin: 0 10% 0 10%;
+}
+.recomendation-title-box{
+    display: flex;
+    align-items: center;
+}
+.recomendation-name{
+    width: 180px;
+    margin-left: 5%;
+    font-size: 1.6rem;
+}
+.recomendation-text{
+    margin-top: 2%;
+    height: 100px;
+    font-size: 1.4rem;
+}
+.control-buttons{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
