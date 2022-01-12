@@ -38,9 +38,38 @@
     margin-top: 2%;
     height: 100px;
     font-size: 1.4rem;
+    text-align: justify;
 }
 .control-buttons{
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+.control-buttons:active {
+    opacity: 0.4;
+    transform: translateY(6px);
+  }
+@media (max-width: 700px) {
+    .recomendation-text{
+        height: 200px;
+    }
+}
+@media (max-width: 500px) {
+    .recomendation-text{
+        height: 280px;
+        margin-top: 12%;
+        text-align: center;
+    }
+    .recomendation-boxes{
+        margin: 11% 3% 0 3%;
+    }
+}
+@media (max-width: 400px) {
+    .control-buttons{
+        width: 30px;
+        height: 30px;
+    }
+    .recomendation-boxes{
+        margin: 11% 0 0 0;
+    }
 }
