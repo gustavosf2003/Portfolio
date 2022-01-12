@@ -55,6 +55,9 @@
     }
 }
 @media (max-width: 500px) {
+    .recomendation{
+        padding-bottom: 10%;
+    }
     .recomendation-text{
         height: 280px;
         margin-top: 12%;
