@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="Css/certificates.css">
     <link rel="stylesheet" href="Css/projects.css">
     <link rel="stylesheet" href="Css/recomendation.css">
+    <link rel="stylesheet" href="Css/contact.css">
     <link rel="stylesheet" href="Css/footer.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BNSE73DEYH"></script>
@@ -290,6 +291,18 @@
             <img src="Img/next.png" id="next" class="control-buttons">
           </article>
         </section>
+        <section class="form-container">
+            <h3 class="contact-title">Contato</h3>
+          <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+            <input type="text" class="input-text" name="subject" placeholder="Name" maxlength="30" required/>
+            <input type="text" class="input-text" name="extra_email" placeholder="Email" maxlength="25" required/>
+            <textarea name="text" class="input-textarea" placeholder="Message" maxlength="600" required></textarea>
+            <input type="hidden" name="access_token" value="q73ucqvpsegnnk5oj9fxai6g" />
+            <input type="hidden" name="success_url" value="https://gustavosf2003.github.io/Portfolio/#contact" />
+            <input type="hidden" name="error_url" value="https://gustavosf2003.github.io/Portfolio/#contact" />
+            <input id="submit_form" class="form-btn" type="submit" value="Send" />
+          </form>
+        </section>
         <footer class="footer">
           <section class="footer-content">
             <article class="owner">
@@ -309,5 +322,6 @@
     <script type="text/javascript" src="Js/about.js"></script>
     <script type="text/javascript" src="Js/knowledge.js"></script>
     <script type="text/javascript" src="Js/projects.js"></script>
+    <script type="text/javascript" src="Js/contact.js"></script>
 </body>
 </html>
