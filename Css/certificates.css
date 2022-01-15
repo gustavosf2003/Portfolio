@@ -1,6 +1,6 @@
 .certificates{
-    margin-top: 6%;
-    padding-top: 1px;
+    margin-top: 3%;
+    padding-top: 1rem;
     background-color: #2A2D34;
     color: #fcfcfc;
 }
@@ -14,52 +14,46 @@
     flex-wrap: wrap;
 }
 .certificate-box {
-    width: 240px;
-    margin: 2% 7% 7% 7%;
+    width: 15rem;
+    margin: 2% 7% 7%;
     text-align: center;
-  }
-  
-  .certificate-img {
-      height: 230px;
-      width: 200px;
-      overflow: hidden;
-      border-radius: 0px 0px 20px 20px;
-      display: inline-block;
-  }
-  
-  .mta1 {
-      transform: skew(0deg, -13deg);
-      height: 250px;
-      margin: -20px 0px 0px -55px;
-  }
-  .mta2 {
-      transform: skew(0deg, -13deg);
-      height: 250px;
-      margin: -15px 0px 0px -68px;
-  }
-  
-  .inner-skew {
-      border-radius: 20px;
-      overflow: hidden;
-      transform: skew(0deg, 13deg);
-      margin: 30px 0px 0px 0px;
-      height: 250px;
-      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
-      width: 200px;
-  }
-  
-  .text-container {
+}
+.certificate-img {
+    height: 14rem;
+    width: 12.5;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+.mta1,.mta2{
+    transform: skew(0deg, -13deg);
+    height: 15.6rem;
+}
+.mta1 {
+    margin: -1.25rem 0px 0px -3.4rem;
+}
+.mta2 {
+    margin: -1rem 0px 0px -4.25rem;
+}
+.inner-skew {
+    border-radius: 1.25rem;
+    overflow: hidden;
+    transform: skew(0deg, 13deg);
+    margin-top: 1.8rem;
+    height: 15.6rem;
+    width: 12.5rem;
+}
+.inner-skew,.text-container{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.9);
-    padding: 120px 20px 20px 20px;
-    border-radius: 20px;
-    background: #17191c;
-    margin: -120px 0px 0px 0px;
-    font-size: 14px;
-  }
-  
-  .text-container h3 {
-    margin: 10% 0 10% 0;
-    font-size: 18px;
-  }
-
-  
+}
+.text-container {
+  padding: 7.5rem 1.2rem 1.2rem;
+  border-radius: 20px;
+  background: #17191c;
+  margin-top: -7.5rem;
+  font-size: 0.85rem;
+}
+.text-container h3 {
+  margin: 10% 0;
+  font-size: 1.1rem;
+}

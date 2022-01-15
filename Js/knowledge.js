@@ -76,6 +76,3 @@ document.getElementById("next").onclick = function(){
     document.getElementById("linkName").href = our_services[next_recomendation].link
     first_recomendation = next_recomendation
 }
-
-//service-previus
-// service-next

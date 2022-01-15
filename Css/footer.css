@@ -1,14 +1,12 @@
 .footer{
     background-color: #2A2D34;
     color: #fcfcfc;
-    padding-bottom: 1%;
+    padding: 1% 0 1% 0;
 }
 .footer-content{
     display: flex;
     align-items: center;
     margin: 0 10% 0 10%;
-    padding-top: 1%;
-    border-top: 1px solid rgb(181, 179, 179);
 }
 .owner{
     width: 50%;
@@ -20,7 +18,7 @@
     text-align: right;
 }
 .footer-icon{
-    width: 44px;
+    width: 2.75rem;
     margin: 0 2% 0 2%;
     cursor: pointer;
 }
@@ -28,33 +26,27 @@
   opacity: 0.4;
   transform: translateY(6px);
 }
+/* Media Queries */
 @media (max-width: 600px) {
     .footer-content{
         display: block;
         text-align: center;
     }
-    .owner{
-        width: 100%;
-    }
     .social-media{
-        width: 100%;
         margin-top: 5%;
         text-align: center;
     }
 }
 @media (max-width: 500px) {
-    .footer{
-        padding-bottom: 30%;
-    }
     .footer-content{
         display: block;
         text-align: center;
+        margin-top: 3%;
     }
-    .owner{
+    .owner,.social-media{
         width: 100%;
     }
     .social-media{
-        width: 100%;
         margin-top: 5%;
         text-align: center;
     }

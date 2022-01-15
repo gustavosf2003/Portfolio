@@ -3,8 +3,7 @@
     align-items: center;
     grid-template-columns: 1fr 2fr;
     font-family: "Cera Pro Medium";
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin: 6% 0;
 }
 .about-img{
     text-align: center;
@@ -12,13 +11,13 @@
 }
 .about-text{
     text-align: left;
-    padding: 0 100px 0 15px;
+    padding: 0 6.25rem 0 0;
 }
 .about-text h3{
     font-size: 4rem;
 }
 .about-text p{
-    padding-top: 15px ;
+    padding-top: 1rem ;
     line-height: 2.5rem;
     font-size: 1.8rem;
 }
@@ -27,22 +26,23 @@
 }
 .image{
     width: 22rem;
-
 }
+/* Media Queries */
 @media (max-width: 830px) {
     .about{
         grid-template-columns: 1fr;
-        margin-top: 1rem;
-        margin-left: 0rem;
+        margin: 1rem 0 0 0;
     }
     .about-text{
-        padding: 0 1rem 0 1rem;
+        padding: 0 1rem;
+        text-align: center;
     }
     .about-text h3{
         font-size: 3rem;
     }
     .about-text p{
         font-size: 1.5rem;
+        text-align: justify;
     }
     .about-img{
         display: none;
@@ -50,7 +50,7 @@
 }
 @media (max-width: 500px) {
     .about-text{
-        padding: 0;
+        padding: 0 1rem;
         text-align: center;
     }
     .about-text h3{
