@@ -1,7 +1,6 @@
 .knowledge{
     display: grid;
     align-items: center;
-    background-color: #2A2D34;
     width: 100%;
     grid-template-columns: 1.3fr 2fr;
     font-family: "Cera Pro Medium";
@@ -9,7 +8,6 @@
 .knowledge-text{
     text-align: center;
     margin-top: 0;
-    color: #fcfcfc;
     font-size: 1.8rem;
 }
 .knowledge-cards{
@@ -31,13 +29,11 @@
     transition: 0.4s;
     background-color: white;
 }
-  
 .svg-language {
     width: inherit;
     height: inherit;
     border-radius: 20px;
 }
-  
 .svg-language svg{
     width: inherit;
     height: inherit;
