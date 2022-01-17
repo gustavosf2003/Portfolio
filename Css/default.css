@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Cera Pro Medium";
 }
@@ -23,6 +26,16 @@ a {
 .section-dark{
     background-color: #2A2D34;
     color: #fcfcfc;
+}
+.title{
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+}
+.title-hr{
+    border: solid 2px #2574a9;
+    text-align: center;
+    margin: auto;
+    width: 40px;
 }
 p::selection,h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,b::selection,span::selection,a::selection {
     background-color: #2A2D34;

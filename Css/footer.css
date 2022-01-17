@@ -1,12 +1,12 @@
 .footer{
     background-color: #2A2D34;
     color: #fcfcfc;
-    padding: 1% 0 1% 0;
+    padding: 1% 0;
 }
 .footer-content{
     display: flex;
     align-items: center;
-    margin: 0 10% 0 10%;
+    margin: 0 10%;
 }
 .owner{
     width: 50%;
@@ -19,7 +19,7 @@
 }
 .footer-icon{
     width: 2.75rem;
-    margin: 0 2% 0 2%;
+    margin: 0 2%;
     cursor: pointer;
 }
 .footer-icon:active {

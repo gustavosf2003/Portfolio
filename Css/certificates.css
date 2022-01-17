@@ -13,7 +13,7 @@
 }
 .certificate-box {
     width: 15rem;
-    margin: 2% 7% 7%;
+    margin: 0 6% 2% 6%;
     text-align: center;
 }
 .certificate-img {
@@ -54,4 +54,14 @@
 .text-container h3 {
   margin: 10% 0;
   font-size: 1.1rem;
+}
+.certificate-link{
+    text-decoration: none;
+    color: #2574a9;
+}
+/* Media Queries */
+@media (max-width: 624px) {
+.certificates{
+    padding-bottom: 8%;
+}
 }

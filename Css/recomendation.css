@@ -1,10 +1,5 @@
 .recomendation{
-    margin-top: 3%;
-}
-.recomendation-title {
-    font-size: 2.5rem;
-    padding-top: 4%;
-    text-align: center;
+    margin-top: 1%;
 }
 .recomendation-img{
     width: 60px;
@@ -15,9 +10,9 @@
 }
 .recomendation-boxes{
     display: flex;
-    margin: 5% 10% 0 10%;
-    padding-bottom: 5%;
     align-items: center;
+    margin: 0% 10%;
+    padding: 2% 0;
 }
 .main-recomendation{
     width: 100%;
@@ -39,13 +34,13 @@
     text-align: justify;
 }
 .control-buttons{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
 }
 .control-buttons:active {
-    opacity: 0.4;
-    transform: translateY(6px);
+    opacity: 0.2;
+    transform: translateY(8px);
   }
 @media (max-width: 700px) {
     .recomendation-text{
