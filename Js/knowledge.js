@@ -14,19 +14,19 @@ var our_services = [
     {
         'name': 'Wallace Erick',
         'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/linkedin/wallace.jpg',
+        'image': 'Img/avatar.png',
         'link': 'https://www.linkedin.com/in/wallaceerick/'
     },
     {
         'name': 'Vinicius Luiz',
         'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/linkedin/vinicius.jpg',
+        'image': 'Img/avatar_smile.png',
         'link': 'https://www.linkedin.com/in/viniciusluiz/'
     },
     {
         'name': 'Eduardo Silva',
         'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/linkedin/fabio.jpg',
+        'image': 'Img/avatar_eating.png',
         'link': 'https://www.linkedin.com/in/viniciusluiz/'
     },
     {

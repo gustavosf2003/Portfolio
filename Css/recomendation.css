@@ -2,8 +2,8 @@
     margin-top: 1%;
 }
 .recomendation-img{
-    width: 60px;
-    border-radius: 60px;
+    width: 3.75rem;
+    border-radius: 3.75rem;
 }
 .recomendation-link{
     color: inherit; 
@@ -29,7 +29,7 @@
 }
 .recomendation-text{
     margin-top: 2%;
-    height: 100px;
+    height: 6.25rem;
     font-size: 1.4rem;
     text-align: justify;
 }
@@ -44,7 +44,7 @@
   }
 @media (max-width: 700px) {
     .recomendation-text{
-        height: 200px;
+        height: 12.5rem;
     }
 }
 @media (max-width: 500px) {
@@ -52,7 +52,7 @@
         padding-bottom: 10%;
     }
     .recomendation-text{
-        height: 280px;
+        height: 17.5rem;
         margin-top: 12%;
         text-align: center;
     }
@@ -62,8 +62,8 @@
 }
 @media (max-width: 400px) {
     .control-buttons{
-        width: 30px;
-        height: 30px;
+        width: 3.75rem;
+        height: 3.75rem;
     }
     .recomendation-boxes{
         margin: 11% 0 0 0;
