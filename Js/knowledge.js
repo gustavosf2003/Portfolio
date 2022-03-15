@@ -12,24 +12,6 @@ var our_services = [
         'link': 'https://www.linkedin.com/in/vonmalves/'
     },
     {
-        'name': 'Wallace Erick',
-        'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/avatar.png',
-        'link': 'https://www.linkedin.com/in/wallaceerick/'
-    },
-    {
-        'name': 'Vinicius Luiz',
-        'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/avatar_smile.png',
-        'link': 'https://www.linkedin.com/in/viniciusluiz/'
-    },
-    {
-        'name': 'Eduardo Silva',
-        'text' : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"',
-        'image': 'Img/avatar_eating.png',
-        'link': 'https://www.linkedin.com/in/viniciusluiz/'
-    },
-    {
         'name': 'Pedro Saraiva',
         'text' : '"Gustavo is a great professional and very hardworking. He has a great knowledge of javascript and always helps his co-workers. I highly recommend this professional"',
         'image': 'Img/linkedin/pedro.jpg',

@@ -21,6 +21,9 @@
     line-height: 2.5rem;
     font-size: 1.8rem;
 }
+.avatar-subtitle{
+    font-size: 1.3rem;
+}
 .about-text span{
     color: #2574a9;
 }
@@ -44,7 +47,7 @@
         font-size: 1.5rem;
         text-align: justify;
     }
-    .about-img{
+    .about-img, .avatar-subtitle{
         display: none;
     }
 }
